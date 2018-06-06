@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "300424365696",
+    "firebase_url": "https://ulizakiatu-81014.firebaseio.com",
+    "project_id": "ulizakiatu-81014",
+    "storage_bucket": "ulizakiatu-81014.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300424365696:android:a407822a04ea66fd",
+        "android_client_info": {
+          "package_name": "com.example.moran.ulizakiatu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300424365696-l6fm9srgnqbiuudtlabtn44f6v453d19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moran.ulizakiatu",
+            "certificate_hash": "981d860a2f5e27e6f7e1706667f3c73ea75ede98"
+          }
+        },
+        {
+          "client_id": "300424365696-bpvf68mifs35h0ol825su1pv25u3brkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQMcBBeWz064scR25SftRSFpydDNB4KkA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300424365696-bpvf68mifs35h0ol825su1pv25u3brkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Log in"
+        android:textColor="#000000"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editemail"
+        android:layout_marginTop="145dp"
+        android:text="Email"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textpasword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textname"
+        android:layout_marginTop="247dp"
+        android:text="Password"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:ems="15"
+        android:inputType="textWebEmailAddress" />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textpasword"
+        android:layout_centerHorizontal="true"
+        android:ems="15"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_toRightOf="@+id/textname"
+        android:text="Don't have an account?"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="192dp"
+        android:onClick="Login_click"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_marginLeft="-21dp"
+        android:layout_marginStart="-21dp"
+        android:layout_toEndOf="@+id/enter"
+        android:layout_toRightOf="@+id/enter"
+        android:clickable="true"
+        android:onClick="Signup_click"
+        android:text="Sign up"
+        android:textColor="#ff0000" />
+
+</RelativeLayout>
